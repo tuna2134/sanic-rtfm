@@ -1,0 +1,171 @@
+{
+    "class": {
+        "Sanic": [
+            "add_route",
+            "add_task",
+            "add_websocket_route",
+            "blueprint",
+            "create_server",
+            "delete",
+            "enable_websocket",
+            "exception",
+            "get",
+            "get_app",
+            "handle_exception",
+            "handle_request",
+            "head",
+            "listener",
+            "middleware",
+            "options",
+            "patch",
+            "post",
+            "put",
+            "register_app",
+            "register_listener",
+            "register_middleware",
+            "register_named_middleware",
+            "route",
+            "run",
+            "signal",
+            "static",
+            "stop",
+            "update_config",
+            "url_for",
+            "websocket"
+        ],
+        "Config": [
+            "load",
+            "load_environment_vars",
+            "register_type",
+            "update",
+            "update_config"
+        ],
+        "Blueprint": [
+            "add_route",
+            "add_websocket_route",
+            "copy",
+            "delete",
+            "exception",
+            "get",
+            "group",
+            "head",
+            "listener",
+            "middleware",
+            "options",
+            "patch",
+            "post",
+            "put",
+            "register",
+            "route",
+            "signal",
+            "static",
+            "websocket"
+        ],
+        "BlueprintGroup": [
+            "__delitem__",
+            "__getitem__",
+            "__init__",
+            "__iter__",
+            "__len__",
+            "__setitem__",
+            "append",
+            "exception",
+            "insert",
+            "middleware"
+        ],
+        "Cookie": [
+            "encode"
+        ],
+        "CookieJar": [],
+        "ContentRangeHandler": [],
+        "ErrorHandler": [
+            "add",
+            "default",
+            "lookup",
+            "response"
+        ],
+        "File": [],
+        "Request": [
+            "get_args",
+            "get_query_args",
+            "receive_body",
+            "url_for"
+        ],
+        "RequestParameters": [
+            "get",
+            "getlist"
+        ],
+        "BaseHTTPResponse": [
+            "send"
+        ],
+        "HTTPResponse": [],
+        "ResponseStream": [],
+        "HTTPMethodView": [
+            "as_view"
+        ],
+        "BaseRenderer": [
+            "dumps",
+            "full",
+            "minimal",
+            "render"
+        ],
+        "HTMLRenderer": [
+            "full",
+            "minimal"
+        ],
+        "JSONRenderer": [
+            "full",
+            "minimal"
+        ],
+        "TextRenderer": [
+            "full",
+            "minimal"
+        ],
+        "Route": [
+            "parse_parameter_string"
+        ],
+        "RouteGroup": [
+            "merge"
+        ],
+        "Router": [
+            "add",
+            "finalize",
+            "find_route_by_view_name",
+            "get"
+        ],
+        "Http": [
+            "create_empty_request",
+            "error_response",
+            "head_response_ignored",
+            "http1",
+            "http1_request_header",
+            "http1_response_chunked",
+            "http1_response_normal",
+            "init_for_request",
+            "log_response",
+            "read",
+            "respond"
+        ],
+        "Stage": [],
+        "AsyncioServer": [
+            "after_start",
+            "after_stop",
+            "before_start",
+            "before_stop",
+            "startup"
+        ],
+        "ConnInfo": [],
+        "HttpProtocol": [
+            "check_timeouts",
+            "close_if_idle",
+            "connection_made",
+            "connection_task",
+            "data_received",
+            "send"
+        ],
+        "Header": [
+            "get_all"
+        ],
+        "Colors": []
+    }
+}
